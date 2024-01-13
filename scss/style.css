@@ -1,0 +1,1696 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Medium.ttf) format(truetype);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Medium.ttf) format(truetype);
+}
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+}
+.container header {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+}
+.container header .header_logo {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+.container header .header_infopanel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.container header .header_infopanel p {
+  color: #444;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+.container header .header_btns {
+  margin-right: 15px;
+  margin-left: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+}
+.container header .header_btns .btn_div {
+  width: 140px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s ease;
+  border: none;
+  border-radius: 5px;
+  background: #575445;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.container header .header_btns .btn_div:hover {
+  box-shadow: 0 0 6px 6px grey;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.container header .header_btns .btn_div-2 {
+  width: 140px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: 1s ease;
+  border: none;
+  border-radius: 5px;
+  background: #575445;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.container header .header_btns .btn_div-2 .number {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 9px;
+  background-color: #FFF;
+  color: #575445;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+.container header .header_btns .btn_div-2:hover {
+  box-shadow: 0 0 6px 6px grey;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.container .card-1 {
+  margin-top: 10px;
+  height: 100vh;
+  background-image: url(../img/image\ of\ card-1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container .card-1 .card-1-box {
+  padding: 200px 150px;
+}
+.container .card-1 .card-1-box span {
+  color: #E6B939;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.container .card-1 .card-1-box h2 {
+  transform: translateY(-20px);
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 57.6px;
+}
+.container .card-1 .card-1-box p {
+  transform: translateY(-40px);
+  color: #CACCD1;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px;
+}
+.container .card-2 {
+  margin-top: 100px;
+}
+.container .card-2 .card-2_contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+.container .card-2 .card-2_contents .card-2_con-box-text span {
+  color: #E6B939;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.container .card-2 .card-2_contents .card-2_con-box-text h2 {
+  color: #575445;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43.2px;
+}
+.container .card-2 .card-2_contents .card-2_con-box-text p {
+  color: #575445;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+.container .card-2 .card-2_contents .card-2_con-box-text .move {
+  margin-left: 0px;
+  transition: all 1s ease;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+.container .card-2 .card-2_contents .card-2_con-box-text .move span {
+  color: #575445;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+.container .card-2 .card-2_contents .card-2_con-box-text .move:hover {
+  margin-left: 35px;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+.container .card-3 {
+  margin-top: 50px;
+  padding-top: 50px;
+  background: #FAFAFC;
+}
+.container .card-3 .card-3_title {
+  text-align: center;
+}
+.container .card-3 .card-3_title h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #E6B939;
+}
+.container .card-3 .card-3_title h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #575445;
+}
+.container .card-3 .card-3_title p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #575445;
+}
+.container .card-3 .card-3_contents {
+  margin-top: 100px;
+  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.container .card-3 .card-3_contents .card-3_con-box h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #575445;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.container .card-3 .card-3_contents .card-3_con-box p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #575445;
+}
+.container .card-4 {
+  margin-top: 100px;
+}
+.container .card-4 .card-4_contents {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-1 {
+  width: 379px;
+  height: 473px;
+  text-align: center;
+  background-image: url(https://weilrain.github.io/Outdoor/assets/img/img_2.svg);
+}
+.container .card-4 .card-4_contents .card-4_con-box-1 h1 {
+  color: #575445;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-1 h4 {
+  color: #575445;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-1 span {
+  color: #575445;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-2 {
+  width: 379px;
+  height: 473px;
+  border-radius: 10px;
+  text-align: center;
+  background-image: url(https://weilrain.github.io/Outdoor/assets/img/img_3.svg);
+}
+.container .card-4 .card-4_contents .card-4_con-box-2 h1 {
+  color: #575445;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-2 h4 {
+  color: #575445;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-2 span {
+  color: #575445;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-3 {
+  width: 379px;
+  height: 473px;
+  border-radius: 10px;
+  text-align: center;
+  background-image: url(https://weilrain.github.io/Outdoor/assets/img/img_4.svg);
+}
+.container .card-4 .card-4_contents .card-4_con-box-3 h1 {
+  color: #575445;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-3 h4 {
+  color: #575445;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-3 span {
+  color: #575445;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-4 {
+  width: 379px;
+  height: 473px;
+  text-align: center;
+  background-image: url(https://weilrain.github.io/Outdoor/assets/img/img_5.svg);
+}
+.container .card-4 .card-4_contents .card-4_con-box-4 h1 {
+  color: #575445;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-4 h4 {
+  color: #575445;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-4 span {
+  color: #575445;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-5 {
+  width: 379px;
+  height: 473px;
+  text-align: center;
+  background-image: url(https://weilrain.github.io/Outdoor/assets/img/img_6.svg);
+}
+.container .card-4 .card-4_contents .card-4_con-box-5 h1 {
+  color: #575445;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-5 h4 {
+  color: #575445;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-5 span {
+  color: #575445;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-6 {
+  width: 379px;
+  height: 473px;
+  text-align: center;
+  background-image: url(https://weilrain.github.io/Outdoor/assets/img/img_7.svg);
+}
+.container .card-4 .card-4_contents .card-4_con-box-6 h1 {
+  color: #575445;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-6 h4 {
+  color: #575445;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.container .card-4 .card-4_contents .card-4_con-box-6 span {
+  color: #575445;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.container .card-5 {
+  margin-top: 10px;
+  height: 100vh;
+  background-image: url(../img/image\ of\ card\ 5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container .card-5 .card-5_infopanel {
+  margin-left: 550px;
+  transform: translateY(500px);
+  width: 615px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border: none;
+  border-radius: 16px;
+  background: #292C32;
+}
+.container .card-5 .card-5_infopanel .icon_p {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.container .card-5 .card-5_infopanel .icon_p img {
+  transform: translateY(-1px);
+}
+.container .card-5 .card-5_infopanel .icon_p span {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+}
+.container .card-6 {
+  height: 400px;
+  background-size: cover;
+  background: url(https://weilrain.github.io/Outdoor/assets/img/bg_store.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container .card-6 .card-6-box {
+  padding: 70px 300px;
+  text-align: center;
+}
+.container .card-6 .card-6-box h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FAFAFC;
+}
+.container .card-6 .card-6-box h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: #E6B939;
+}
+.container .card-6 .card-6-box p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FAFAFC;
+}
+.container .card-6 .card-6-box .btn-1 {
+  background: #FFFFFF;
+  border-radius: 6px;
+  width: 111px;
+  height: 44px;
+  margin-top: 21px;
+  border: none;
+  transition: 1s ease;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: gray;
+}
+.container .card-6 .card-6-box .btn-1:hover {
+  box-shadow: 0 0 6px 6px rgba(237, 237, 237, 0.638);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.container .card-7 {
+  margin-top: 100px;
+}
+.container .card-7 .card-7_title {
+  padding-left: 20px;
+  text-align: start;
+}
+.container .card-7 .card-7_title span {
+  color: #E6B939;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.container .card-7 .card-7_title h2 {
+  color: #575445;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43.2px;
+}
+.container .card-7 .card-7_title p {
+  color: #575445;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+.container .card-7 .card-7_contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.container .card-7 .card-7_contents .card-7_con-box {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.container .card-7 .card-7_contents .card-7_con-box p {
+  color: #575445;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.container .card-7 .card-7_contents .card-7_con-box .mini-info {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.container .card-7 .card-7_contents .card-7_con-box .mini-info .mini-info-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.container .card-7 .card-7_contents .card-7_con-box .mini-info .mini-info-1 h4 {
+  margin-bottom: 5px;
+  color: #575445;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.2px;
+}
+.container .card-7 .card-7_contents .card-7_con-box .mini-info .mini-info-1 h4 p {
+  color: #E6B939;
+  font-family: Poppins;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.4px;
+}
+.container .card-7 .card-7_contents .card-7_con-box .mini-info .mini-info-2 span {
+  color: #6F7278;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.2px;
+}
+.container .card-7 .card-7_title-2 {
+  margin-top: 50px;
+  text-align: center;
+}
+.container .card-7 .card-7_title-2 span {
+  color: #575445;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.container .card-8 {
+  margin-top: 150px;
+}
+.container .card-8 .card-8_contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+.container .card-8 .card-8_contents .card-8_con-box-text span {
+  color: #E6B939;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.container .card-8 .card-8_contents .card-8_con-box-text h2 {
+  color: #575445;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43.2px;
+}
+.container .card-8 .card-8_contents .card-8_con-box-text p {
+  color: #575445;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+.container .card-8 .card-8_contents .card-8_con-box-text .move {
+  margin-left: 0px;
+  transition: all 1s ease;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+.container .card-8 .card-8_contents .card-8_con-box-text .move span {
+  color: #575445;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+.container .card-8 .card-8_contents .card-8_con-box-text .move:hover {
+  margin-left: 35px;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+.container footer {
+  margin-top: 200px;
+  background: #575445;
+}
+.container footer .footer_logo {
+  padding-top: 100px;
+  text-align: center;
+}
+.container footer .footer_contents-1 {
+  padding: 0px 35px;
+  margin-top: 60px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 75px;
+}
+.container footer .footer_contents-1 .footer-box-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+.container footer .footer_contents-1 .footer-box-1 span {
+  color: #E6B939;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.container footer .footer_contents-1 .footer-box-1 p {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+}
+.container footer .footer_contents-1 .footer-box-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.container footer .footer_contents-1 .footer-box-2 span {
+  color: #E6B939;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.container footer .footer_contents-1 .footer-box-2 p {
+  color: #FAFAFC;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+}
+.container footer .footer_contents-1 .footer-box-2 .input_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container footer .footer_contents-1 .footer-box-2 .input_btn input {
+  padding-left: 20px;
+  width: 458px;
+  height: 53px;
+  border-radius: 8px;
+  border: 1px solid #E5E7EB;
+  background: #F9FAFB;
+  color: #575445;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+}
+.container footer .footer_contents-1 .footer-box-2 .input_btn button {
+  transform: translateX(-80px);
+  width: 73px;
+  height: 39px;
+  border: none;
+  border-radius: 10px;
+  background: #575445;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+}
+.container footer .footer_contents-2 {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container footer .footer_contents-2 p {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+}
+.container footer .footer_contents-2 .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+@media (max-width: 447px) {
+  .container header {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+  }
+  .container header .header_infopanel {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .container header .header_infopanel p {
+    color: #444;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+  }
+  .container header .header_btns {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+  }
+  .container header .header_btns .btn_div {
+    width: 90px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease;
+    border: none;
+    border-radius: 5px;
+    background: #575445;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+  .container header .header_btns .btn_div:hover {
+    box-shadow: 0 0 6px 6px grey;
+    transition: all 0.3s ease-in-out;
+  }
+  .container header .header_btns .btn_div-2 {
+    width: 90px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    transition: 1s ease;
+    border: none;
+    border-radius: 5px;
+    background: #575445;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+  .container header .header_btns .btn_div-2 img {
+    width: 13px;
+    height: 13px;
+  }
+  .container header .header_btns .btn_div-2 .number {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 7px;
+    background-color: #FFF;
+    color: #575445;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  .container header .header_btns .btn_div-2:hover {
+    box-shadow: 0 0 6px 6px grey;
+    transition: all 0.3s ease-in-out;
+  }
+  .container .card-1 {
+    margin-top: 10px;
+    height: 100vh;
+    background-image: url(../img/image\ of\ card-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container .card-1 .card-1-box {
+    padding: 60px;
+  }
+  .container .card-1 .card-1-box span {
+    color: #E6B939;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .container .card-1 .card-1-box h2 {
+    transform: translateY(-20px);
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  .container .card-1 .card-1-box p {
+    transform: translateY(-40px);
+    color: #CACCD1;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .container .card-2 {
+    margin-top: 20px;
+  }
+  .container .card-2 .card-2_contents {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 40px;
+  }
+  .container .card-2 .card-2_contents .card-2_con-box-img img {
+    width: 430px;
+    height: 430px;
+  }
+  .container .card-2 .card-2_contents .card-2_con-box-text {
+    padding-left: 40px;
+  }
+  .container .card-2 .card-2_contents .card-2_con-box-text span {
+    color: #E6B939;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .container .card-2 .card-2_contents .card-2_con-box-text h2 {
+    color: #575445;
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+  }
+  .container .card-2 .card-2_contents .card-2_con-box-text p {
+    color: #575445;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.2px;
+  }
+  .container .card-2 .card-2_contents .card-2_con-box-text .move {
+    margin-left: 0px;
+    transition: all 1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+  }
+  .container .card-2 .card-2_contents .card-2_con-box-text .move span {
+    color: #575445;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.2px;
+  }
+  .container .card-2 .card-2_contents .card-2_con-box-text .move:hover {
+    margin-left: 35px;
+    transition: all 1s ease;
+  }
+  .container .card-3 {
+    margin-top: 25px;
+    padding-top: 25px;
+    background: #FAFAFC;
+  }
+  .container .card-3 .card-3_title {
+    text-align: center;
+  }
+  .container .card-3 .card-3_title h5 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+  }
+  .container .card-3 .card-3_title h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+    color: #575445;
+  }
+  .container .card-3 .card-3_title p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+    color: #575445;
+  }
+  .container .card-3 .card-3_contents {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .container .card-3 .card-3_contents .card-3_con-box h4 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #575445;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .container .card-3 .card-3_contents .card-3_con-box p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #575445;
+  }
+  .container .card-4 {
+    margin-top: 100px;
+  }
+  .container .card-4 .card-4_contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-1 {
+    width: 379px;
+    height: 473px;
+    text-align: center;
+    background-image: url(https://weilrain.github.io/Outdoor/assets/img/img_2.svg);
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-1 h1 {
+    color: #575445;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-1 h4 {
+    color: #575445;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-1 span {
+    color: #575445;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-2 {
+    width: 379px;
+    height: 473px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(https://weilrain.github.io/Outdoor/assets/img/img_3.svg);
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-2 h1 {
+    color: #575445;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-2 h4 {
+    color: #575445;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-2 span {
+    color: #575445;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-3 {
+    width: 379px;
+    height: 473px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(https://weilrain.github.io/Outdoor/assets/img/img_4.svg);
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-3 h1 {
+    color: #575445;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-3 h4 {
+    color: #575445;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-3 span {
+    color: #575445;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-4 {
+    width: 379px;
+    height: 473px;
+    text-align: center;
+    background-image: url(https://weilrain.github.io/Outdoor/assets/img/img_5.svg);
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-4 h1 {
+    color: #575445;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-4 h4 {
+    color: #575445;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-4 span {
+    color: #575445;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-5 {
+    width: 379px;
+    height: 473px;
+    text-align: center;
+    background-image: url(https://weilrain.github.io/Outdoor/assets/img/img_6.svg);
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-5 h1 {
+    color: #575445;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-5 h4 {
+    color: #575445;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-5 span {
+    color: #575445;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-6 {
+    width: 379px;
+    height: 473px;
+    text-align: center;
+    background-image: url(https://weilrain.github.io/Outdoor/assets/img/img_7.svg);
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-6 h1 {
+    color: #575445;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-6 h4 {
+    color: #575445;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+  .container .card-4 .card-4_contents .card-4_con-box-6 span {
+    color: #575445;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  .container .card-5 {
+    margin-top: 10px;
+    height: 100vh;
+    background-image: url(../img/image\ of\ card\ 5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container .card-5 .card-5_infopanel {
+    margin-left: 120px;
+    transform: translateY(260px);
+    width: 300px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border: none;
+    border-radius: 16px;
+    background: #292C32;
+  }
+  .container .card-5 .card-5_infopanel .icon_p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .container .card-5 .card-5_infopanel .icon_p img {
+    transform: translateY(-1px);
+    width: 10px;
+    height: 10px;
+  }
+  .container .card-5 .card-5_infopanel .icon_p span {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+  }
+  .container .card-6 {
+    height: 400px;
+    background: url(https://weilrain.github.io/Outdoor/assets/img/bg_store.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container .card-6 .card-6-box {
+    padding: 50px;
+    text-align: center;
+  }
+  .container .card-6 .card-6-box h4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FAFAFC;
+  }
+  .container .card-6 .card-6-box h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    color: #E6B939;
+  }
+  .container .card-6 .card-6-box p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FAFAFC;
+  }
+  .container .card-6 .card-6-box .btn-1 {
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 100px;
+    height: 40px;
+    margin-top: 21px;
+    border: none;
+    transition: 1s ease;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+    color: gray;
+  }
+  .container .card-6 .card-6-box .btn-1:hover {
+    box-shadow: 0 0 6px 6px rgba(237, 237, 237, 0.638);
+    transition: all 0.3s ease-in-out;
+  }
+  .container .card-7 .card-7_title {
+    padding-left: 20px;
+    text-align: start;
+  }
+  .container .card-7 .card-7_title span {
+    color: #E6B939;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .container .card-7 .card-7_title h2 {
+    color: #575445;
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+  }
+  .container .card-7 .card-7_title p {
+    color: #575445;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.2px;
+  }
+  .container .card-7 .card-7_contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .container .card-7 .card-7_contents .card-7_con-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container .card-7 .card-7_contents .card-7_con-box img {
+    width: 430px;
+  }
+  .container .card-7 .card-7_contents .card-7_con-box p {
+    color: #575445;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .container .card-7 .card-7_contents .card-7_con-box .mini-info {
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    gap: 150px;
+  }
+  .container .card-7 .card-7_contents .card-7_con-box .mini-info .mini-info-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .container .card-7 .card-7_contents .card-7_con-box .mini-info .mini-info-1 img {
+    width: 45px;
+    height: 45px;
+  }
+  .container .card-7 .card-7_contents .card-7_con-box .mini-info .mini-info-1 h4 {
+    margin-bottom: 5px;
+    color: #575445;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.2px;
+  }
+  .container .card-7 .card-7_contents .card-7_con-box .mini-info .mini-info-1 h4 p {
+    color: #E6B939;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.4px;
+  }
+  .container .card-7 .card-7_contents .card-7_con-box .mini-info .mini-info-2 span {
+    color: #6F7278;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.2px;
+  }
+  .container .card-7 .card-7_title-2 {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .container .card-7 .card-7_title-2 span {
+    color: #575445;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  .container .card-8 {
+    margin-top: 20px;
+  }
+  .container .card-8 .card-8_contents {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 40px;
+  }
+  .container .card-8 .card-8_contents .card-8_con-box-img img {
+    width: 430px;
+    height: 430px;
+  }
+  .container .card-8 .card-8_contents .card-8_con-box-text {
+    padding-left: 40px;
+  }
+  .container .card-8 .card-8_contents .card-8_con-box-text span {
+    color: #E6B939;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .container .card-8 .card-8_contents .card-8_con-box-text h2 {
+    color: #575445;
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+  }
+  .container .card-8 .card-8_contents .card-8_con-box-text p {
+    color: #575445;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.2px;
+  }
+  .container .card-8 .card-8_contents .card-8_con-box-text .move {
+    margin-left: 0px;
+    transition: all 1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+  }
+  .container .card-8 .card-8_contents .card-8_con-box-text .move span {
+    color: #575445;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.2px;
+  }
+  .container .card-8 .card-8_contents .card-8_con-box-text .move:hover {
+    margin-left: 35px;
+    transition: all 1s ease;
+  }
+  .container footer {
+    margin-top: 200px;
+    background: #575445;
+  }
+  .container footer .footer_logo {
+    padding-top: 100px;
+    text-align: center;
+  }
+  .container footer .footer_contents-1 {
+    padding: 0px 35px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 75px;
+  }
+  .container footer .footer_contents-1 .footer-box-1 {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .container footer .footer_contents-1 .footer-box-1 span {
+    color: #E6B939;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .container footer .footer_contents-1 .footer-box-1 p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .container footer .footer_contents-1 .footer-box-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+  .container footer .footer_contents-1 .footer-box-2 span {
+    color: #E6B939;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .container footer .footer_contents-1 .footer-box-2 p {
+    color: #FAFAFC;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+  }
+  .container footer .footer_contents-1 .footer-box-2 .input_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container footer .footer_contents-1 .footer-box-2 .input_btn input {
+    padding-left: 20px;
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #E5E7EB;
+    background: #F9FAFB;
+    color: #575445;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+  }
+  .container footer .footer_contents-1 .footer-box-2 .input_btn button {
+    transform: translateX(-80px);
+    width: 73px;
+    height: 39px;
+    border: none;
+    border-radius: 10px;
+    background: #575445;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+  }
+  .container footer .footer_contents-2 {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container footer .footer_contents-2 p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+  }
+  .container footer .footer_contents-2 .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .container footer .footer_contents-2 .icons img {
+    width: 10px;
+    height: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
